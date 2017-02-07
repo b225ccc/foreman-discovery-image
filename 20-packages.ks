@@ -15,6 +15,7 @@ acpid
 tftp
 lldpad
 isomd5sum
+at
 
 # Dracut missing deps (https://bugzilla.redhat.com/show_bug.cgi?id=1285810)
 tar

@@ -34,6 +34,7 @@ echo " * enabling nm-prepare service"
 systemctl enable nm-prepare.service
 
 echo " * enabling required system services"
+systemctl enable atd.service
 systemctl enable ipmi.service
 systemctl enable foreman-proxy.service
 systemctl enable discovery-fetch-extensions.path
