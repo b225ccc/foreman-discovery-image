@@ -43,8 +43,8 @@ systemctl enable discovery-menu.service
 # register service is started manually from discovery-menu
 systemctl disable discovery-register.service
 
-echo " * disabling some unused system services"
-systemctl disable ipmi.service
+#echo " * disabling some unused system services"
+#systemctl disable ipmi.service
 
 echo " * open foreman-proxy port via firewalld"
 firewall-offline-cmd --zone=public --add-port=8443/tcp --add-port=8448/tcp

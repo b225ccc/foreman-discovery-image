@@ -69,6 +69,10 @@ grub2-efi
 efibootmgr
 shim
 
+# idrac
+pciutils
+wget
+
 #
 # Packages to Remove
 #

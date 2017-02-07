@@ -3,4 +3,5 @@
 %include 20-packages.ks
 %include fdi-install.ks
 %include 22-discovery.ks
+%include 23-idrac.ks
 %include 25-minimize.ks
